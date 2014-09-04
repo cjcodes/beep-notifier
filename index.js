@@ -17,5 +17,5 @@ setInterval(function () {
     checker.check(function () {
         Alerter.alert()
     });
-}, 3000);
+}, 30000);
 
