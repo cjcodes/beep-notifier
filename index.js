@@ -16,6 +16,8 @@ var checker = new Checker(
 setInterval(function () {
     checker.check(function () {
         Alerter.alert()
+    }, function () {
+        Alerter.stop();
     });
 }, 30000);
 
